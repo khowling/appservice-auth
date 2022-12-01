@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+
+    <p>HTTP Headers </p>
+    <ul>
+      <% Object.keys(httpheaders).map(h => { %>
+        <li>
+          <strong><%= h %></strong>: <%= httpheaders[h] %>,
+
+        </li>
+      <% }); %>
+    </ul>
+
+    <p><strong>/.auth/me</strong>:  <%= authme %></p>
+
+    <p>Backend API <strong><%= apiurl %></strong>:  <%= apibody %></p>
+  </body>
+</html>

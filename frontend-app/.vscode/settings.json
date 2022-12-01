@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/77b029bf-1095-4d77-b2a5-b6acabfa2c4e/AppServices/subscriptions/77b029bf-1095-4d77-b2a5-b6acabfa2c4e/resourceGroups/kh-test-auth/providers/Microsoft.Web/sites/kh-test-auth",
+    "appService.deploySubpath": "."
+}
